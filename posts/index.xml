@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo test</title>
+    <link>https://android18-rr.github.io/posts/</link>
+    <description>Recent content in Posts on Hugo test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 29 Apr 2022 19:24:26 +0900</lastBuildDate><atom:link href="https://android18-rr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github_pages_hugo</title>
+      <link>https://android18-rr.github.io/posts/github_pages_hugo/</link>
+      <pubDate>Fri, 29 Apr 2022 19:24:26 +0900</pubDate>
+      
+      <guid>https://android18-rr.github.io/posts/github_pages_hugo/</guid>
+      <description>Memos for Github pages with Hugo 初期設定 Hugoのインストール 注意点はaptでインストールされるバージョンがとても古い。古いバージョンだとテーマが対応していない場合もあるので、最新バージョンのdebパッケージをHugoのGithubリポジトリからダウンロードして、dpkgでインストールする。
+サイト生成 サイト生成は下記の手順。
+  サイトのトップディレクトリ生成
+ hugoが自動でpostなどの各種ディレクトリを生成。    サイトのテーマ選択
+ submoduleかcloneでtheme以下にthemeディレクトリを持ってくる。 config.tomlを設定するが、theme毎に異なるので、themeの説明を参照する。    コンテンツ(ページ)の作成
+ Markdownで記事を書く。 themeによって注意事項がある。例えば、本例のgokarnaはtypeをpostにするとpostに勝手に入れてくれたりする。    Live Serverで確認
+ ローカル(localhost:1313)で記事を確認。    サイト生成
+ 生成するとpublicディレクトリにサイトが生成されている。    Githubリポジトリとトップディレクトリを接続(初回のみ)。
+ public以下をプッシュするように、publicディレクトリとGithubのGithub Pagesリポジトリをリンクする。    Githubにプッシュ。
+  # (1) Generate top directory $ hugo new site &amp;lt;top_dir&amp;gt;  # (2) Import theme $ cd &amp;lt;top_dir&amp;gt; $ git init $ git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
